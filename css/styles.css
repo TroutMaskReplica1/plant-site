@@ -1,3 +1,15 @@
+/* general styling */
+.jumbotron {
+  opacity: .7;
+  color: black;
+}
+
+.location{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 /* flexbox stuff */
 .flex-container1 {
   display: flex;
@@ -20,11 +32,6 @@ body {
   background-image: url("../img/leaf.jpg");
   background-color: #cccccc;
   color: white;
-}
-
-.jumbotron {
-  opacity: .7;
-  color: black;
 }
 /* dropdown functionality stuff */
 .dropbtn {
