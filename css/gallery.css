@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/gallery.jpg);
   height: 80%;
@@ -31,14 +31,14 @@ body, html {
 }
 =======
 
-footer {
+/* footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   justify-content: space-between;
 }
 /* dropdown functionality stuff!!! */
-.dropbtn {
+/* .dropbtn {
   background-color: #4CAF50;
   color: white;
   padding: 16px;
@@ -74,6 +74,5 @@ footer {
 
 .dropdown:hover .dropdown-content {display: inline-flex;}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-/* end of dropdown */
->>>>>>> 4031f311034da35b1f0331c861b86fc90656db1e
+.dropdown:hover .dropbtn {background-color: #3e8e41;} */
+/* end of dropdown */ */
