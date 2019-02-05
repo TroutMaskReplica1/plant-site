@@ -59,7 +59,7 @@
   justify-content: space-between;
 }
 /* background image stuff */
-.home .body {
+.home body {
   background-image: url("../img/leaf.jpg");
   background-color: #cccccc;
   color: white;
