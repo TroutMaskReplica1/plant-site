@@ -21,12 +21,13 @@
   opacity: .7;
   color: black;
   padding: 0px;
-  font-size: 30px;
 }
 
 body, html {
   height: 100%;
 }
+
+
 /* .carousel {
   display: flex;
   justify-content: center;  margin-left: auto;
@@ -49,7 +50,7 @@ body, html {
 }
 
 a:link, a:visited {
-  color: white;
+  color: black;
 }
 
 a.foot:link, a.foot:visited {
@@ -60,7 +61,7 @@ a.foot:link, a.foot:visited {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   color: white;
 }
 
