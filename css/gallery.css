@@ -1,12 +1,44 @@
 
-footer {
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/gallery.jpg);
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+body, html {
+    height: 100%;
+    /* background-color: #fffcf9; */
+  }
+
+ .hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.jumbotron {
+  padding: 5%;
+}
+#myCarousel img {
+   height: 800px;
+
+}
+=======
+
+/* footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   justify-content: space-between;
 }
 /* dropdown functionality stuff!!! */
-.dropbtn {
+/* .dropbtn {
   background-color: #4CAF50;
   color: white;
   padding: 16px;
@@ -42,5 +74,5 @@ footer {
 
 .dropdown:hover .dropdown-content {display: inline-flex;}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-/* end of dropdown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;} */
+/* end of dropdown */ */

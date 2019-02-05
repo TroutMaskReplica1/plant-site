@@ -60,7 +60,11 @@ footer {
   justify-content: space-between;
 }
 /* background image stuff */
+<<<<<<< HEAD
+.home body {
+=======
 body {
+>>>>>>> 4031f311034da35b1f0331c861b86fc90656db1e
   background-image: url("../img/leaf.jpg");
   background-color: #cccccc;
   color: white;
