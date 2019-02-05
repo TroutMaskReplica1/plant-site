@@ -1,12 +1,12 @@
 /* general styling */
-.home .jumbotron {
+.jumbotron {
   opacity: .7;
   color: black;
   padding: 0px;
   font-size: 30px;
 }
 
-.home .location{
+.location{
   text-align: center;
   display: block;
   margin-left: auto;
@@ -16,27 +16,28 @@
   opacity: .9;
 }
 
-.home .carousel {
+.carousel {
   text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  color: white;
 }
 
-.home .card {
+.card {
   opacity: .8;
 }
 
-.home a:link, a:visited {
+a:link, a:visited {
   color: white;
 }
 
-.home a.foot:link, a.foot:visited {
+a.foot:link, a.foot:visited {
   color: black;
 }
 /* flexbox stuff */
-.home .flex-container1 {
+.flex-container1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -44,7 +45,7 @@
   color: white;
 }
 
-.home .flex-container2 {
+.flex-container2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -52,20 +53,21 @@
   color: white;
 }
 
-.home footer{
+footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   justify-content: space-between;
 }
 /* background image stuff */
-.home .body {
+body {
   background-image: url("../img/leaf.jpg");
   background-color: #cccccc;
   color: white;
 }
+
 /* dropdown functionality stuff!!! */
-.home .dropbtn {
+.dropbtn {
   background-color: #4CAF50;
   color: white;
   padding: 16px;
@@ -73,15 +75,15 @@
   border: none;
 }
 
-.home .dropbtn {
+.dropbtn {
   background-color: #4CAF50;
   color: white;
   padding: 16px;
-  font-size: 16px;.home
+  font-size: 16px;
   border: none;
 }
 
-.home .dropdown-content {
+.dropdown-content {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
@@ -90,16 +92,16 @@
   z-index: 1;
 }
 
-.home .dropdown-content a {
+.dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-.home .dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #ddd;}
 
-.home .dropdown:hover .dropdown-content {display: inline-flex;}
+.dropdown:hover .dropdown-content {display: inline-flex;}
 
-.home .dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
 /* end of dropdown */
