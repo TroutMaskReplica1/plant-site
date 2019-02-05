@@ -1,8 +1,8 @@
 
 
-// 
-// $(document).ready(function(){
-//   function() {
-//     $('.collapse').collapse();
-//   });
-// });
+
+$(document).ready(function(){
+  function() {
+    $('.collapse').collapse();
+  });
+});
