@@ -11,7 +11,7 @@
     <title>My Google Map</title>
      <style>
        #map{
-         height:400px;
+         height:600px;
          width:100%;
        }
 
@@ -19,22 +19,22 @@
   </head>
   <body>
     <div class="hero-image">
-    <div class="hero-text">
-      <h1 style="font-size:90px"><span style="color:lightgray">Nursery Locations in Portland</span></h1>
+      <div class="hero-text">
+        <h1 style="font-size:90px"><span style="color:lightgray">Nursery Locations in Portland</span></h1>
+      </div>
     </div>
-   </div>
     <div class="container">
       <div class="row">
         <div class="col-12">
           <div class="jumbotron"
-            <h1 style="font-size:50px">Locations:</h1>
-            <h1>My Google Map</h1>
+            <h1 style="font-size:50px">Nursery Locations</h1>
+            <!-- <h1>My Google Map</h1> -->
             <div id="map"></div>
             <script>
             function initMap() {
               var options = {
                 zoom:13,
-                center:{lat:45.5504,lng:-122.6758}
+                center:{lat:45.5316,lng:-122.6668}
               }
               var map = new google.maps.Map(document.getElementById('map'), options);
 
@@ -96,12 +96,59 @@
             </script>
             <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDunfXutxS5u1X19-jl6z-YyQa9CmzzOJE&callback=initMap"
             async defer></script>
-            <!-- //need to add the map API// -->
-            <!-- <img src="img/map.jpg" style="width:100%"></img> -->
           </div>
         </div>
       </div>
-    </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card bg-light" style="width: 15rem;">
+            <img class="card-img-top" src="img/foxglove.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Pistils Nursery</h5>
+              <p class="card-text">3811 N. Mississippi Ave</p>
+              <p class="card-text">Portland, Oregon 97227</p>
+              <p class="card-text">503 288 4889</p>
+              <a href="http://pistilsnursery.com" class="btn btn">Go to webpage</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 bg-light">
+          <div class="card" style="width: 15rem;">
+            <img class="card-img-top" src="img/foxglove.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Pistils Nursery</h5>
+              <p class="card-text">3811 N. Mississippi Ave</p>
+              <p class="card-text">Portland, Oregon 97227</p>
+              <p class="card-text">503 288 4889</p>
+              <a href="http://pistilsnursery.com" class="btn btn">Go to webpage</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 bg-light">
+          <div class="card" style="width: 15rem;">
+            <img class="card-img-top" src="img/foxglove.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Pistils Nursery</h5>
+              <p class="card-text">3811 N. Mississippi Ave</p>
+              <p class="card-text">Portland, Oregon 97227</p>
+              <p class="card-text">503 288 4889</p>
+              <a href="http://pistilsnursery.com" class="btn btn">Go to webpage</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 bg-light">
+          <div class="card" style="width: 15rem;">
+            <img class="card-img-top" src="img/foxglove.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Pistils Nursery</h5>
+              <p class="card-text">3811 N. Mississippi Ave</p>
+              <p class="card-text">Portland, Oregon 97227</p>
+              <p class="card-text">503 288 4889</p>
+              <a href="http://pistilsnursery.com" class="btn btn">Go to webpage</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
