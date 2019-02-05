@@ -13,6 +13,7 @@
   margin-right: auto;
   width: 50%;
   padding: 30px;
+  opacity: .9;
 }
 
 .carousel {
@@ -27,6 +28,13 @@
   opacity: .8;
 }
 
+a:link, a:visited {
+  color: white;
+}
+
+a.foot:link, a.foot:visited {
+  color: black;
+}
 /* flexbox stuff */
 .flex-container1 {
   display: flex;
