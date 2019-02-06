@@ -23,11 +23,21 @@ body, html {
 }
 
 .jumbotron {
-  padding: 5%;
+  padding: 7%;
+  margin-top: 5%;
+  /* background-color: #909090; */
 }
-#myCarousel img {
-   height: 800px;
 
+#myCarousel img {
+   height: 670px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h5 p {
+  color: gray;
 }
 =======
 
