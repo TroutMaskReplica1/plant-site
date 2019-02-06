@@ -9,16 +9,38 @@
     <meta charset="utf-8">
     <title>Homepage</title>
   </head>
-  <body class="body">
-    <div class="dropdown">
-      <button class="dropbtn">menu</button>
-      <div class="dropdown-content">
-        <a href="index.html">Home</a>
-        <a href="category.html">Categories</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="location.html">Location</a>
-      </div>
-    </div>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Categories
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="category.html#indoor_plant_care">Category</a>
+                <a class="dropdown-item" href="category.html#cat2">Category</a>
+                <a class="dropdown-item" href="category.html#cat3">Category</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="location.html">Location</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
       <div class="hero-image">
         <div class="hero-text">
           <h1 style="font-size:90px"><span style="color:lightgray">Home</span></h1>
@@ -27,62 +49,120 @@
       <br>
       <br>
       <div class="container">
-        <div class="jumbotron">
-          <h1>Welcome to Green Thumb,</h1>
-          <p>the primier site for plant knowledge. Weither you're new to this or an old pro, come grow with us! We are a small community that is still budding, so any donations are greatly appreciated. Thank you and remember we love you :)</p>
-        </div>
-      </div>
-    <div class="well">
-      <div class="jumbotron">
-        <p>Hi, welcome to Green Thumb, the primier site for plant knowledge. Weither you're new to this or an old pro, come grow with us! We are a small community that is still budding, so any donations are greatly appreciated. Thank you and remember we love you :)</p>
-      </div>
-    </div>
-    <div class="categories">
-      <div class="flex-container1">
-        <a href="category.html"><img src="img/agave.jpg" alt="img5"><h3>Succulents</h3></a>
-        <a href="category.html"><img src="img/purp.jpg" alt="img1"><h3>Flowering Plants</h3></a>
-        <a href="category.html"><img src="img/herb.jpg" alt="img1"><h3>Herbs</h3></a>
-      </div>
-    </div>
-    <br>
-    <div class="location">
-      <img src="img/map.png" alt="">
-    </div>
+          <div class="jumbotron">
+            <h1>Welcome to Green Thumb,</h1>
+            <p>the primier site for plant knowledge. Weither you're new to this or an old pro, come grow with us! We are a small community that is still budding, so any donations are greatly appreciated. Thank you and remember we love you :)</p>
+          </div>
 
-    <br>
+        <form id="track">
+          <div class="jumbotron">
+            <div class="form-group">
+              <label for="interests">Front-end or Back-end development?</label>
+                <select id="interests" class="form-control">
+                  <option>Please Choose </option>
+                  <option value="5">Front-end </option>
+                  <option value="10">Back-end</option>
+                </select>
+            </div>
+          </div>
+          <div class="jumbotron">
+            <div class="form-group">
+              <label for="dev">Which interests you more?</label>
+              <select id="dev" class="form-control">
+                <option>Please Choose </option>
+                <option value="5">software </option>
+                <option value="10">app </option>
+                <option value="15">website</option>
+              </select>
+            </div>
+          </div>
+          <div class="jumbotron">
+            <div class="form-group">
+              <label for="time">Night or Day classes?</label>
+              <select id="time" class="form-control">
+                <option>Please Choose </option>
+                <option value="0">night</option>
+                <option value="1">day</option>
+              </select>
+            </div>
+          </div>
+          <div class="flex-container1">
+            <button type="submit" class="btn">Submit</button>
+          </div>
+        </form>
+        <div id=result>
+          <div id="r1">
+            <div class="jumbotron">
+              <p><strong><span class="color">C#</span></strong> is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, C# is a great choice.
+              </p>
+            </div>
+          </div>
+          <div id="r2">
+            <div class="jumbotron">
+              <p><strong><span class="color">C#</span></strong> is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, C# is a great choice.
+              </p>
+            </div>
+          </div>
+          <div id="r3">
+            <div class="jumbotron">
+              <p><strong><span class="color">C#</span></strong> is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, C# is a great choice.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="page-footer font-small darken-3 pt-4">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <!-- Footer Links -->
+               <div class="container-fluid text-center text-md-left">
 
-    <div class="mini-gallery">
-      <div class="flex-container2">
-        <a href="gallery.html"><img src="img/flower.jpg" alt="img1"></a>
-        <a href="gallery.html"><img src="img/fern.jpg" alt="img2"></a>
-        <a href="gallery.html"><img src="img/lotus.jpg" alt="img3"></a>
-      <div class="mini-gallery">
-        <div class="flex-container2">
-          <a href="gallery.html"><img src="img/herb.jpg" alt="img1"></a>
-          <a href="gallery.html"><img src="img/fern.jpg" alt="img2"></a>
-          <a href="gallery.html"><img src="img/lotus.jpg" alt="img3"></a>
+                 <!-- Grid row -->
+                 <div class="row">
+
+                   <!-- Grid column -->
+                   <div class="col-md-6 mt-md-0 mt-3">
+
+                     <!-- Content -->
+                     <h5 class="text-uppercase">Plants</h5>
+                     <p>Visit us again!</p>
+
+                   </div>
+                   <!-- Grid column -->
+
+                   <hr class="clearfix w-100 d-md-none pb-3">
+
+                   <!-- Grid column -->
+                   <div class="col-md-3 mb-md-0 mb-3">
+
+                       <!-- Links -->
+                       <h5 class="text-uppercase">Menu:</h5>
+
+                       <ul class="list-unstyled">
+                         <li>
+                           <a href="index.html">Homepage</a>
+                         </li>
+                         <li>
+                           <a href="category.html">Categories</a>
+                         </li>
+                         <li>
+                           <a href="gallery.html">Gallery</a>
+                         </li>
+                         <li>
+                           <a href="location.html">Locations</a>
+                         </li>
+                       </ul>
+
+                     </div>
+                 </div>
+                 <!-- Grid row -->
+
+               </div>
+               <!-- Footer Links -->
+          </div>
         </div>
-        <br>
-        <div class="flex-container2">
-          <a href="gallery.html"><img src="img/foxglove.jpg" alt="img4"></a>
-          <a href="gallery.html"><img src="img/agave.jpg" alt="img5"></a>
-          <a href="gallery.html"><img src="img/berry.jpg" alt="img6"></a>
+        <div class="footer-copyright text-center py-3">© 2019 Copyright
         </div>
-      </div>
-      <br>
-      <div class="flex-container2">
-        <a href="gallery.html"><img src="img/foxglove.jpg" alt="img4"></a>
-        <a href="gallery.html"><img src="img/agave.jpg" alt="img5"></a>
-        <a href="gallery.html"><img src="img/berry.jpg" alt="img6"></a>
-      </div>
-    </div>
-    <div class="card">
-      <footer>
-        <a class="foot" href="index.html">Home</a>
-        <a class="foot" href="category.html">Categories</a>
-        <a class="foot" href="gallery.html">Gallery</a>
-        <a class="foot" href="location.html">Location</a>
       </footer>
-    </div>
   </body>
 </html>
