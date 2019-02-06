@@ -75,6 +75,9 @@ body, html {
   /* background-color: #ddd; */
   color: lightgray;
 }
+a:link, a:visited, a:hover {
+  color: lightgray;
+}
 footer {
   background-color: #1f1f1f;
   color: white;
