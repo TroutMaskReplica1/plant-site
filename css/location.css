@@ -23,31 +23,17 @@ body, html {
   color: white;
 }
 
-
-.jumbotron {
-  padding: 20px;
-  margin-top: -30px;
-}
-.addressInfo {
-  text-align: center;
-  margin-top: -60px;
-}
-
-/* .btn {
-  margin-left: -20px;
-} */
-
 img {
   height: 250px;
 }
 
-h5 {
-  font-size: 1em;
+/* h5 {
+  font-size: 1.5em;
 }
 
 p{
-  font-size: .75em;
-}
+  font-size: 1em;
+} */
 /* Add a black background color to the top navigation */
 .topnav {
   overflow: hidden;
