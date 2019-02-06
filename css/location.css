@@ -23,6 +23,19 @@ body, html {
   color: white;
 }
 
+.jumbotron {
+  padding: 20px;
+  /* margin-top: -30px; */
+}
+.addressInfo {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* .btn {
+  margin-left: -20px;
+} */
+
 img {
   height: 250px;
 }
