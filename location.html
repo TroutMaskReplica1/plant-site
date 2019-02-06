@@ -10,28 +10,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <style>
        #map{
-         height:400px;
+         height:600px;
          width:100%;
        }
      </style>
   </head>
   <body>
     <div class="hero-image">
-    <div class="hero-text">
-      <h1 style="font-size:90px"><span style="color:lightgray">Nursery Locations in Portland</span></h1>
+      <div class="hero-text">
+        <h1 style="font-size:90px"><span style="color:lightgray">Nursery Locations in Portland</span></h1>
+      </div>
     </div>
-   </div>
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <div class="jumbotron"
-            <h1 style="font-size:50px">Locations:</h1>
+          <div class="jumbotron">
             <div id="map"></div>
             <script>
             function initMap() {
               var options = {
                 zoom:13,
-                center:{lat:45.5504,lng:-122.6758}
+                center:{lat:45.5316,lng:-122.6668}
               }
               var map = new google.maps.Map(document.getElementById('map'), options);
 
@@ -93,12 +92,67 @@
             </script>
             <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDunfXutxS5u1X19-jl6z-YyQa9CmzzOJE&callback=initMap"
             async defer></script>
-            <!-- //need to add the map API// -->
-            <!-- <img src="img/map.jpg" style="width:100%"></img> -->
           </div>
         </div>
       </div>
-    </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card bg-light" style="width: 17rem;">
+            <img class="card-img-top" src="img/pistils2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Pistils Nursery</h5>
+              <p class="card-text">3811 N. Mississippi Ave</p>
+              <p class="card-text">Portland, Oregon 97227</p>
+              <p class="card-text">503 288 4889</p>
+              <h5 class="card-title">Open Every Day:</h5>
+              <p class="card-text">10:00 AM - 7:00 PM</p>
+              <a href="http://pistilsnursery.com" class="btn btn-link">Go to webpage</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 bg-light">
+          <div class="card" style="width: 17rem;">
+            <img class="card-img-top" src="img/hammervine1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Hammer + Vine</h5>
+              <p class="card-text">2190 W Burnside St. Suite B</p>
+              <p class="card-text">Portland, Oregon 97210</p>
+              <p class="card-text">503 224 9678</p>
+              <h5 class="card-title">Open Every Day:</h5>
+              <p class="card-text">11:00 AM - 7:00 PM</p>
+              <a href="https://hammerandvine.com/" class="btn btn-link">Go to webpage</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 bg-light">
+          <div class="card" style="width: 17rem;">
+            <img class="card-img-top" src="img/pomarius2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Pomarius Nursery</h5>
+              <p class="card-text">1920 NW 18th Ave</p>
+              <p class="card-text">Portland, Oregon 97209</p>
+              <p class="card-text">503 490 6866</p>
+              <h5 class="card-title">Open Every Day:</h5>
+              <p class="card-text">11:00 AM - 4:00 PM</p>
+              <a href="https://www.pomariusnursery.com/" class="btn btn-link">Go to webpage</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 bg-light">
+          <div class="card" style="width: 17rem;">
+            <img class="card-img-top" src="img/portland1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Portland Nursery</h5>
+              <p class="card-text">9000 SE Division</p>
+              <p class="card-text">Portland, Oregon 97266</p>
+              <p class="card-text">503 788 9000</p>
+              <h5 class="card-title">Open Every Day:</h5>
+              <p class="card-text">9:00 AM - 6:00 PM</p>
+              <a href="https://portlandnursery.com/" class="btn btn-link">Go to webpage</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
