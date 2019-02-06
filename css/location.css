@@ -23,9 +23,6 @@ body, html {
   color: white;
 }
 
-.row {
-  margin-top: 5%;
-}
 
 .jumbotron {
   padding: 20px;
@@ -72,4 +69,8 @@ p{
 .topnav a:hover {
   /* background-color: #ddd; */
   color: lightgray;
+}
+footer {
+  background-color: #1f1f1f;
+  color: white;
 }
